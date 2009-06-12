@@ -1,0 +1,14 @@
+#Specific settings for using the command line version of processing in Share
+
+sketchbook.path=.
+
+# if you don't want settings to go into "application data" on windows
+# and "library" on macosx, set this to the alternate location.
+#settings.path=data
+
+# temporary build path, normally this goes into the default
+# "temp" folder for that platform (as defined by java)
+# but this can be used to set a specific file in case of problems
+build.path=tmp/
+
+run.options=-Djava.security.manager -Djava.security.policy=policy

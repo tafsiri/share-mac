@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Tue Jun 02 12:46:03 EDT 2009*/
+/* DO NOT EDIT */
+
+grant {
+  permission java.io.FilePermission "builds${/}-", "read, write, delete";
+  permission java.io.FilePermission "..${/}..${/}sketches${/}-", "read, write, delete";
+  permission java.util.PropertyPermission "*", "read";
+  permission java.lang.RuntimePermission "loadLibrary.*";
+  permission java.lang.RuntimePermission "accessClassInPackage.*";
+  permission java.net.SocketPermission "localhost:1024-", "accept, connect, listen, resolve";
+};
+

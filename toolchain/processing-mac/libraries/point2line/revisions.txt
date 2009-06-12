@@ -1,0 +1,62 @@
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+ABOUT REV 04 - 4 January 2009
+
+
+[ general ] 
+
++ changed name of library from ce_geometry to point2line. this is done
+  to isolate the package from the rest of my personal code and ease
+  the pain of updating the library.
+
++ changed the location of all files from:
+  http://sixthsensor/processing/ce/geometry/
+  to:
+  http://sixthsensor/p5/point2line/
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
+ABOUT REV 03 - 3 January 2009
+
+
+[ general ] 
+
++ added new examples to the documentation.
+
++ fine tuned isAlmostZero() for pixel position checks.
+
++ removed the undocumented randomDirection() method. instead call the
+  constructor like this: new Vect2( random( TWO_PI ) ).
+
+[ bug fixes ] 
+
++ fixed bug in equals().
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
+ABOUT REV 02 - 9 December 2008
+
+
+[ changes ]
+
++ removed the static versions of add() and subtract() for the sake of 
+  simplicity. use vect2.added() and vect2.subtracted for the same 
+  purpose.
+
+
+[ bug fixes ] 
+
++ fixed problem with rotate() and setRotation().
+
++ scaled() did not return the result, it does now.
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
